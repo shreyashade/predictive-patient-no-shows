@@ -1,0 +1,16 @@
+Save pipeline using pickle:
+
+import pickle
+with open('pipeline_xgb.pkl', 'wb') as f:
+    pickle.dump(pipeline_xgb, f)
+
+Requirements:
+
+Flask==2.0.3
+flask-ngrok==0.0.25
+pandas==1.3.5
+scikit-learn==1.0.2
+xgboost==1.5.0
+
+Manual command:
+pip install Flask flask-ngrok pandas scikit-learn xgboost
